@@ -21,7 +21,7 @@ jobs:
           cache: npm
 
       - name: Build website
-        run: npm build
+        run: npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
